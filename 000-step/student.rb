@@ -1,5 +1,5 @@
 
-# 1) Define the Students class
+# 1) Define the Student class
 # a) Just code for the attributes passed into the constructor
 #    Which in this case are first_name, last_name, major and date_of_birth
 # b) use attr_accessor to make 
