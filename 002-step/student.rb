@@ -1,9 +1,8 @@
 
-# 1) Add fullName and calculateGPA methods to your Student class
-# a) fullName you can copy from the students_as_hashes.rb example
-# b) for calculateGPA, you can get the basic code from students_as_hashes.rb
-#    but you'll need to understand how I implemented addEnrollment to
-#    complete the assignment
+# 1) Add a counter for the number of Students we've created
+#    as a class variable called @@student_count
+# 2) Add a class method called  self.studentCount which
+#    return @@student_count
 
 
 class Student

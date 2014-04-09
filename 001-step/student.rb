@@ -2,8 +2,8 @@
 # 1) Add fullName and calculateGPA methods to your Student class
 # a) fullName you can copy from the students_as_hashes.rb example
 # b) for calculateGPA, you can get the basic code from students_as_hashes.rb
-#    but you'll need to understand how I implemented addEnrollment to
-#    complete the assignment
+#    but you'll be using the new Enrollment class which I've added for you
+#    to read the grade
 
 
 class Student

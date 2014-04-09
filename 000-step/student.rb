@@ -1,13 +1,13 @@
 
 # 1) Define the Students class
-# class Student ...
 # a) Just code for the attributes passed into the constructor
-# b) use attr_accessor
+#    Which in this case are first_name, last_name, major and date_of_birth
+# b) use attr_accessor to make 
 # c) store them instance variables:  @first_name, @last_name, @major, @date_of_birth
 
 
 # TODO: Your work goes here!
-
+# class Student ...
 
 ####################### DON'T EDIT BELOW THIS LINE! #############################
 
@@ -79,7 +79,7 @@ def runTests
    end
 
   if failures.empty?
-    printSuccess("You Student class meets all the expectations for this step")
+    printSuccess("You Student class meets all the expectations for this step, now go to ../001-step  and run ruby student.rb")
   else
     failures.each { |message| printError(message)}
   end
